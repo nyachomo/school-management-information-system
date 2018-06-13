@@ -90,7 +90,7 @@ require_once('SMS/config/security.php');
                 window.location.assign("SMS/modules/administration/Admin_dash.php");
                 </script>-->
                 <?php
-				}//end of num rows for teachers
+				}//end of row
 				else if($rowTeachers==0){
 					$sqlBurser="SELECT Email,Password,Status,Access_Level FROM add_staff 
 					WHERE Binary Email='".$username."' AND  Binary Password='".$password."' AND Access_Level=3";
