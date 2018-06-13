@@ -8,7 +8,7 @@ require_once('SMS/config/security.php');
 
 ?>
 <?php
-        // put your code here
+  
         if(isset($_POST['login'])){
             $username=  escape($_POST['username']);
             $password=  escape(md5($_POST['password']));   
